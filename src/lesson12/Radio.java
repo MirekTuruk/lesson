@@ -5,10 +5,11 @@ public class Radio {
     private long serialNumber;
     private float inches;
 
-    public Radio(String modelName, long serialNumber, float inches) {
+    public Radio(String modelName, long serialNumber) {
         this.modelName = modelName;
         this.serialNumber = serialNumber;
-        this.inches = inches;
+        this.inches = 55.2f;
+        
     }
 }
-}
+
